@@ -1,7 +1,7 @@
 # text_to_chart_LLM_integration
 
 About the Project:
-Imagine you are a data analyst or a data scientist of a marketing team at an e-commerce company. The company needs to understand customer purchasing behaviors over the last year to tailor their upcoming holiday campaigns. Traditionally, this would involve complex SQL queries, data wrangling in Python, and perhaps building visual dashboards to interpret the results including analyzing spreadsheets, creating charts, and maybe even some statistical analysis—tasks that require considerable time and expertise.
+Imagine you are a data analyst or a data scientist of a marketing team at an e-commerce company. The company needs to understand customer purchasing behaviors over the last year to tailor their upcoming holiday campaigns. Traditionally, this would involve complex SQL queries, data wrangling in Python, and perhaps building visual dashboards to interpret the results including analyzing spreadsheets, creating charts, and maybe even some statistical analysis, tasks that require considerable time and expertise.
 
 With the integration of Langchain and LLMs, you can simply ask, "Show me a visualization of monthly sales trends by product category," or "Generate a heatmap of customer activity by region." This project analyzes a dataset using IBM Watsonx.ai LLM integrated with LangChain. It enables natural language querying and visualization of student data, allowing exploration of correlations between demographics, grades, and lifestyle factors. The project demonstrates the power of combining AI-driven language models with structured data analysis.
 
@@ -18,3 +18,6 @@ Users can generate visualizations such as bar charts, pie charts, box plots, and
 - Automatic visualization of demographics, academic performance, and lifestyle factors.
 - Transparent generation of Python code used for data analysis.
 - Facilitates exploratory data analysis and insights into student performance.
+
+## Tech
+ibm-watson-ai for using LLMs from IBM's watsonx.ai. LangChain, langchain-ibm, langchain-experimental for using its agent function to interact with data. matplotlib for additional plotting tools. seaborn for visualizing the data.
